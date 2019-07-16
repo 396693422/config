@@ -1,0 +1,22 @@
+server:
+  port: 9005
+  
+spring:
+  data:
+    mongodb:
+      host: 120.79.140.113
+      port: 27017
+      database: qdp
+      username: admin
+      password: admin
+      authentication-database: admin
+
+xinyan:
+  member-id: 8150725329
+  terminal-id: 8150725329
+  pfxpwd: jbb123.
+  pfxpath: jbbxinyan_pri.pfx
+  black:
+    url: https://api.xinyan.com/product/negative/v4/black
+    validity-period: 15
+    version: 1.4.0
